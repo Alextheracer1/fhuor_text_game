@@ -5,3 +5,10 @@ Basic Idea:
 - certain pictures of the girls should pop up when player makes certain decisions 
 (i.e. buy ice cream for minji instead of mal-sook, picture of minji eating ice cream could pop up)
 - sus but not +18 pictures are allowed to gain more upvotes on reddit as soon as we publish the game
+
+Update Clemens (6.11.2025)
+- added basic class implementation for the player, the waifu and eun_bi
+- added some debatable properties like score, loving_score, age, player_name ...
+- added some functions like speciality, increase_score, greeting ...
+- seperated classes into hpp and cpp files, so main.cpp stays logic free most of the time
+- added some pictures and study materials
