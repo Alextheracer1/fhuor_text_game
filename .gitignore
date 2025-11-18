@@ -39,3 +39,24 @@
 
 # debug information files
 *.dwo
+
+# Build directories
+build/
+build2/
+*/build/
+*/build2/
+
+# Executables
+*.exe
+*.out
+*.app
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# IDE files
+.vscode/
+*.code-workspace
