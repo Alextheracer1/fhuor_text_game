@@ -52,10 +52,10 @@ RM = "C:\Program Files\CMake\bin\cmake.exe" -E rm -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game
+CMAKE_SOURCE_DIR = "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game"
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build
+CMAKE_BINARY_DIR = "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build"
 
 # Include any dependencies generated for this target.
 include CMakeFiles/fhuor_text_game.dir/depend.make
@@ -73,63 +73,63 @@ CMakeFiles/fhuor_text_game.dir/codegen:
 
 CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj: CMakeFiles/fhuor_text_game.dir/flags.make
 CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj: CMakeFiles/fhuor_text_game.dir/includes_CXX.rsp
-CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj: D:/Windows/Shortcuts/Documents/VS_Code/fhuor_text_game/src/main.cpp
+CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj: C:/Users/ThinkPad\ T14s/Documents/VS\ Code/fhuor_text_game/src/main.cpp
 CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj: CMakeFiles/fhuor_text_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\main.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\main.cpp.obj -c D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/main.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\main.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\main.cpp.obj -c "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\main.cpp"
 
 CMakeFiles/fhuor_text_game.dir/src/main.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fhuor_text_game.dir/src/main.cpp.i"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\main.cpp > CMakeFiles\fhuor_text_game.dir\src\main.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\main.cpp" > CMakeFiles\fhuor_text_game.dir\src\main.cpp.i
 
 CMakeFiles/fhuor_text_game.dir/src/main.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fhuor_text_game.dir/src/main.cpp.s"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\main.cpp -o CMakeFiles\fhuor_text_game.dir\src\main.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\main.cpp" -o CMakeFiles\fhuor_text_game.dir\src\main.cpp.s
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj: CMakeFiles/fhuor_text_game.dir/flags.make
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj: CMakeFiles/fhuor_text_game.dir/includes_CXX.rsp
-CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj: D:/Windows/Shortcuts/Documents/VS_Code/fhuor_text_game/src/Classes\ (cpp_hpp\ files)/player.cpp
+CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj: C:/Users/ThinkPad\ T14s/Documents/VS\ Code/fhuor_text_game/src/Classes\ (cpp_hpp\ files)/player.cpp
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj: CMakeFiles/fhuor_text_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.obj -c "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\player.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_2) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.obj -c "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\player.cpp"
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.i"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\player.cpp" > CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\player.cpp" > CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.i
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/player.cpp.s"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\player.cpp" -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\player.cpp" -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\player.cpp.s
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj: CMakeFiles/fhuor_text_game.dir/flags.make
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj: CMakeFiles/fhuor_text_game.dir/includes_CXX.rsp
-CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj: D:/Windows/Shortcuts/Documents/VS_Code/fhuor_text_game/src/Classes\ (cpp_hpp\ files)/waifu.cpp
+CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj: C:/Users/ThinkPad\ T14s/Documents/VS\ Code/fhuor_text_game/src/Classes\ (cpp_hpp\ files)/waifu.cpp
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj: CMakeFiles/fhuor_text_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.obj -c "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\waifu.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.obj -c "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\waifu.cpp"
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.i"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\waifu.cpp" > CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\waifu.cpp" > CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.i
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/waifu.cpp.s"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\waifu.cpp" -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\waifu.cpp" -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\waifu.cpp.s
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj: CMakeFiles/fhuor_text_game.dir/flags.make
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj: CMakeFiles/fhuor_text_game.dir/includes_CXX.rsp
-CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj: D:/Windows/Shortcuts/Documents/VS_Code/fhuor_text_game/src/Classes\ (cpp_hpp\ files)/eun_bi.cpp
+CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj: C:/Users/ThinkPad\ T14s/Documents/VS\ Code/fhuor_text_game/src/Classes\ (cpp_hpp\ files)/eun_bi.cpp
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj: CMakeFiles/fhuor_text_game.dir/compiler_depend.ts
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir=D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.obj -c "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\eun_bi.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --progress-dir="C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj"
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.obj -MF CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.obj.d -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.obj -c "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\eun_bi.cpp"
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Preprocessing CXX source to CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.i"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\eun_bi.cpp" > CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.i
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\eun_bi.cpp" > CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.i
 
 CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green "Compiling CXX source to assembly CMakeFiles/fhuor_text_game.dir/src/Classes_(cpp_hpp_files)/eun_bi.cpp.s"
-	C:\PROGRA~1\X86_64~1.0-R\mingw64\bin\C__~1.EXE $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\src\Classes (cpp_hpp files)\eun_bi.cpp" -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.s
+	C:\msys64\ucrt64\bin\c++.exe $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\src\Classes (cpp_hpp files)\eun_bi.cpp" -o CMakeFiles\fhuor_text_game.dir\src\Classes_(cpp_hpp_files)\eun_bi.cpp.s
 
 # Object files for target fhuor_text_game
 fhuor_text_game_OBJECTS = \
@@ -149,7 +149,7 @@ fhuor_text_game.exe: CMakeFiles/fhuor_text_game.dir/build.make
 fhuor_text_game.exe: CMakeFiles/fhuor_text_game.dir/linkLibs.rsp
 fhuor_text_game.exe: CMakeFiles/fhuor_text_game.dir/objects1.rsp
 fhuor_text_game.exe: CMakeFiles/fhuor_text_game.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir=D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build\CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fhuor_text_game.exe"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --green --bold --progress-dir="C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build\CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable fhuor_text_game.exe"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles\fhuor_text_game.dir\link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -161,6 +161,6 @@ CMakeFiles/fhuor_text_game.dir/clean:
 .PHONY : CMakeFiles/fhuor_text_game.dir/clean
 
 CMakeFiles/fhuor_text_game.dir/depend:
-	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build D:\Windows\Shortcuts\Documents\VS_Code\fhuor_text_game\build\CMakeFiles\fhuor_text_game.dir\DependInfo.cmake "--color=$(COLOR)" fhuor_text_game
+	$(CMAKE_COMMAND) -E cmake_depends "MinGW Makefiles" "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game" "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game" "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build" "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build" "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game\build\CMakeFiles\fhuor_text_game.dir\DependInfo.cmake" "--color=$(COLOR)" fhuor_text_game
 .PHONY : CMakeFiles/fhuor_text_game.dir/depend
 

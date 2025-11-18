@@ -1,4 +1,21 @@
 # fhuor_text_game
+Run Code with build.bat
+- .\build.bat
+
+In CMake:
+# Step 1: Create build directory (once)
+cd "C:\Users\ThinkPad T14s\Documents\VS Code\fhuor_text_game"
+mkdir build
+cd build
+
+# Step 2: Configure project (Windows with MinGW)
+cmake -G "MinGW Makefiles" ..
+
+# Step 3: Build project
+cmake --build .
+
+# Step 4: Run executable
+.\fhuor_text_game.exe
 
 Basic Idea:
 - text based interface, where the player can make choices (just like in the original game)

@@ -85,8 +85,9 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/CMakeInspectCXXLinker.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Internal/FeatureTesting.cmake"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/Linker/GNU-CXX.cmake"
+  "C:/Program Files/CMake/share/cmake-4.2/Modules/Linker/GNU.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/GNU.cmake"
-  "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU-CXX.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Linker/Windows-GNU.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-Determine-CXX.cmake"
@@ -97,10 +98,10 @@ set(CMAKE_MAKEFILE_DEPENDS
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows-windres.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/Windows.cmake"
   "C:/Program Files/CMake/share/cmake-4.2/Modules/Platform/WindowsPaths.cmake"
-  "D:/Windows/Shortcuts/Documents/VS_Code/fhuor_text_game/CMakeLists.txt"
-  "CMakeFiles/4.2.0-rc2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.2.0-rc2/CMakeRCCompiler.cmake"
-  "CMakeFiles/4.2.0-rc2/CMakeSystem.cmake"
+  "C:/Users/ThinkPad T14s/Documents/VS Code/fhuor_text_game/CMakeLists.txt"
+  "CMakeFiles/4.2.0-rc4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeRCCompiler.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeSystem.cmake"
   )
 
 # The corresponding makefile is:
@@ -111,11 +112,11 @@ set(CMAKE_MAKEFILE_OUTPUTS
 
 # Byproducts of CMake generate step:
 set(CMAKE_MAKEFILE_PRODUCTS
-  "CMakeFiles/4.2.0-rc2/CMakeSystem.cmake"
-  "CMakeFiles/4.2.0-rc2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.2.0-rc2/CMakeRCCompiler.cmake"
-  "CMakeFiles/4.2.0-rc2/CMakeCXXCompiler.cmake"
-  "CMakeFiles/4.2.0-rc2/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeSystem.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeRCCompiler.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeCXXCompiler.cmake"
+  "CMakeFiles/4.2.0-rc4/CMakeCXXCompiler.cmake"
   "CMakeFiles/CMakeDirectoryInformation.cmake"
   )
 
