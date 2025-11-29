@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <cstring>
 #include "Classes (cpp_hpp files)/player.hpp"
 #include "Classes (cpp_hpp files)/eun_bi.hpp" // eun_bi.hpp includes waifu.hpp
 
@@ -17,27 +18,38 @@ int main()
 
     /*Actual Game Content*/
     int input1;
-    
+
     std::cout << "--------------------------------" << std::endl;
     std::cout << "Would you like to meet Eun-Bi (1) or Mal-Sook (2)?\n";
-    std::cin >> input1;
-    
-    if (input1 == 1){
-        std::cout << "Great, Eun-Bi will wear a nice bikini for you!";
-        exit;
-    }
-    else if(input1 == 2){
-        std::cout << "Great, Eun-Bi will wear a nice bikini for you!";
-        exit;
 
+    while (true)
+    {
+        if (!(std::cin >> input1))
+        {
+            std::cin.clear();             // clears error message
+            std::cin.ignore(10000, '\n'); // cleans wrong data
+            std::cout << "Not a freakin' number mate, try again" << std::endl;
+            continue;
+        }
+        if (input1 == 1)
+        {
+            std::cout << "Great, Eun-Bi will wear a nice bikini for you!";
+            alex.set_nod(1);
+            break;
+        }
+        else if (input1 == 2)
+        {
+            std::cout << "Mal-Sook will be delighted to see you!";
+            alex.set_nod(1);
+            break;
+        }
+        else
+        {
+            std::cout << "brooo wrong input, try again.\n";
+            continue;
+        }
     }
-    else{
-        std::cout << "brooo wrong input, try again.";
 
-    }
-    
     std::cout << "\n--------------------------------" << std::endl;
     return 0;
-    
-
 }

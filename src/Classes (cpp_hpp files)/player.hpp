@@ -20,5 +20,7 @@ public:
     virtual ~Player() = default;
 
     int get_score() { return score_; }
-    int get_nof() { return number_of_decisions_; }
+    int get_nod() { return number_of_decisions_; }
+
+    void set_nod(int new_value) { number_of_decisions_ = new_value; }
 };
